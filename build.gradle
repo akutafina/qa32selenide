@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.codeborne:selenide:6.10.3'
+    implementation 'junit:junit:4.13.2'
+
+}
+
+test {
+    useJUnit()
+}
